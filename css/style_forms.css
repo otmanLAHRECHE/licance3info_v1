@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    background-color: #002d8e;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.sidebar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li a:hover {
+    background-color: #198900;
+    color: #fff;
+}
+
+.patient-info {
+    text-align: center;
+}
+
+.patient-info img {
+    border-radius: 50%;
+    width: 80%;
+    max-width: 150px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin-top: 40px;
+
+}
+
+.nav-menu li {
+    margin-bottom: 30px;
+
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover {
+    transform: translateX(5px);
+}
+
+main {
+
+    padding: 20px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 10%;
+}
+
+th {
+
+    background-color: #002d8e;
+    color: #fff;
+
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #43ae53;
+    color: #fff;
+    border: none;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ae4343;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #43ae53;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.button1:hover,
+.button2:hover {
+    background-color: #666;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 0%;
+    background-image: url("ord.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img-full {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
+
+.edit-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ae4343;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #666;
+}
+
+.add-patient {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #43ae53;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.Envoyer {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #43ae53;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Envoyer:hover {
+    background-color: #666;
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 3px;
+    float: right;
+    color: #fff;
+    font-size: 14px;
+    background-color: rgb(0, 150, 0);
+    border: none;
+    margin: 5px;
+}
+
+.ex-co {
+    width: 25%;
+    margin: 10px;
+}
+
+.fi1 {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 66%;
+
+}
+
+strong {
+    margin-left: 20px;
+    ;
+}
+
+.label1 {
+    margin-left: 100px;
+}
+
+.fil2 {
+    border: 1px solid transparent;
+}
+
+.tt {
+    float: right;
+    padding-top: 5%;
+}
+
+.ss {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+
+
+.h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.input {
+    margin: 7px;
+    border: rgb(0, 0, 0);
+
+}
+.input-sv {
+    margin: 10px;
+    border: rgb(0, 0, 0);
+    width: 5%;
+
+}
+
+
+.inpu {
+    width: 40px;
+
+}
+
+.ll {
+    float: right;
+    padding: 7%
+}
+
+
+.fieldset {
+    margin-left: 90px;
+    padding-left: 40px;
+    width: 190mm;
+    height: 280mm;
+
+}
+
+@media print {
+    .body * {
+        visibility: hidden;
+    }
+
+    .fieldset,
+    .fieldset * {
+        visibility: visible;
+    }
+
+    .fieldset {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fieldset {
+        margin: 0;
+        padding: 30px;
+        page-break-inside: avoid;
+        border: none;
+        width: 190mm;
+        height: 268mm;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+
+
+.button3 {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.h4 {
+    margin-left: 60%;
+}
+
+.input2-an {
+    margin: 15px;
+}
+
+
+.legend {
+
+    margin-left: 45%;
+}
+
+strong {
+    margin: 30px;
+}
+
+.input1-an {
+    width: 90%;
+    border: 0;
+}
+
+.fieldset2 {
+    display: flex;
+}
+
+.main-ord {
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    margin-right: 25%;
+}
+
+.textarea {
+    transform: translateY(20px);
+    display: flex;
+    border: none;
+    border-top: 1px solid black;
+    width: 100%;
+    resize: vertical;
+    height: max-content;
+}
+
+.oredonnance {
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 15px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: auto;
+}
